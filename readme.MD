@@ -1,5 +1,5 @@
 # Preview do projeto Focus Timer 2.0
- <img src="./github/preview.png" alt="Preview do projeto"/> 
+<img src="./github/preview.png" alt="Preview do projeto"/> 
   
 ## Focus Timer 2.0 - Stage 05 - Desafio 01
    Esse projeto é um Timer para podemos estudar através do metódo Pomodoro e com direito a ouvir 04 tipo de som abiente diferente. :)
