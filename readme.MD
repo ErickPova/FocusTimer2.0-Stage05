@@ -7,14 +7,22 @@
 ## O que foi aprendido? 
  Segue abaixo os principais conceitos práticado nesse projeto:
  
- • Recursividade 
+ • Recursividade
+ 
  • Event Driven e Manipulação DOM
+ 
  • DOM
+ 
  • Função 
+ 
  • Função Callback 
+ 
  • Manipulação DOM 
+ 
  • Display Grid
- • Display Flex  
+ 
+ • Display Flex 
+ 
  • Condicionais
     
 ## Tecnologies 
