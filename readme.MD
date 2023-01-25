@@ -5,7 +5,7 @@
    Esse projeto é um Timer para podemos estudar através do metódo Pomodoro e com direito a ouvir 04 tipo de som abiente diferente. :)
     
 ## O que foi aprendido? 
- Segue abaixo os principais conceitos práticado nesse projeto:
+ Segue abaixo os principais conceitos praticado nesse projeto:
  
  • Recursividade
  
