@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+
+    --primary-color: #323238;
+    --btn-color: #E1E1E6;
+    --btnHover-color: #02799D;
+    --ff-roboto: 'Roboto',sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Timer*/
+main .container{
+    position: relative;
+    width: 82.1rem;
+    height: 33.6rem;
+
+    display: flex;
+}
+.container span{
+    font-family: var(--ff-roboto);
+    font-weight: 500;
+    font-size: 11.791rem;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--primary-color);
+}
+.timer{
+    width: 32.1rem;
+    height: 21.3rem;
+    margin-top: 5.8rem;
+
+}
+.time{
+    width: 45vw;
+}
+.display{
+    width: 31.0rem;
+    height: 4.8rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4rem;
+}
+.display button{
+    width: 4.5rem;
+    height: 4.5rem;
+
+    border: var(--primary-color);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+   background: none;
+   cursor: pointer;
+}
+.btnPause{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+/*Sounds*/
+.sounds{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    display: grid;
+    grid-template-areas: 'A B'
+        'C D';
+    gap: 3.2rem;
+}
+.sounds button{
+    width: 13.8rem;
+    height: 15.2rem;
+    border-radius: 2.4rem;
+
+    border: none;
+    cursor: pointer;
+}
+.sounds button:hover{
+    background-color: var(--btnHover-color);
+    transition: 0.3s all linear;
+}
+.sounds svg:hover path{
+    fill: white;
+    transition: 0.5s all linear;
+}
+
+.hide{
+    display: none;
+    
+}
